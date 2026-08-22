@@ -56,7 +56,7 @@ public class LoginTest {
     @Test
     public void testDynamicContent() {
         page.navigate("https://the-internet.herokuapp.com/dynamic_loading/1");
-        System.out.print("this is for testing");
+        System.out.println("this is for testing to try new system one");
         // Click Start button
         page.locator("button").click();
 
